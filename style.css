@@ -1,0 +1,20 @@
+body{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+}
+
+.dialogue{
+    border:none;
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dialogue:hover{
+    opacity: 50%;
+}
+
+.dialogue:active{
+    opacity: 25%;
+}

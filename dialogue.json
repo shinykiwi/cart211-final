@@ -1,0 +1,10 @@
+[
+  {
+    "scene" : "stage-1",
+    "prompt": "You arrive at a set of doors.",
+    "options": [
+      "You enter through the left door.",
+      "You enter through the right door."
+    ]
+  }
+]
