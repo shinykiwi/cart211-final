@@ -1,20 +1,36 @@
 body{
     background-color: #fff;
-    color: #000;
+    color: #ffffff;
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
-.dialogue{
+
+.background{
+    width: 70rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.dialogue_btn{
     border:none;
     background-color: #ffffff;
     display: block;
     margin-bottom: 10px;
 }
 
-.dialogue:hover{
+.dialogue_btn:hover{
     opacity: 50%;
 }
 
-.dialogue:active{
+.dialogue_btn:active{
     opacity: 25%;
+}
+
+.interaction{
+
+}
+
+.message{
+
 }
