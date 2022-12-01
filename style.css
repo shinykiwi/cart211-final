@@ -23,14 +23,60 @@ body{
     opacity: 50%;
 }
 
-.dialogue_btn:active{
-    opacity: 25%;
+.dialogue_btn:disabled{
+    opacity: 0;
 }
 
-.interaction{
+.textBox{
+    margin: 10px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 30rem;
+    opacity: 0;
+    background-color: dimgrey;
 
 }
 
 .message{
+
+}
+
+.randolph{
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 60px;
+    height: 17rem;
+    width: 16rem;
+    color: white;
+    position: relative;
+    opacity: 85%;
+
+}
+
+.randolph_btn:hover{
+    opacity: 100%;
+    filter: drop-shadow(1px 1px 10px #ffffff);
+}
+
+.randolph_btn:disabled{
+    filter: none;
+}
+
+
+.randolph_btn{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    background-image: url("img/rock1.png");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-color: transparent;
+    border: none;
 
 }
