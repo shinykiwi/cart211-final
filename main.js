@@ -8,6 +8,12 @@ function onClick(id){
     const clickSound = new Audio("sound/close.wav")
     const typingSound = new Audio("sound/typing.wav")
     const speed = 45;
+
+    const songs =[
+        new Audio("sound/peggy.wav"),
+    ]
+
+    songs[0].volume = 0.5
     typingSound.loop = true
 
     one.disabled = true
@@ -23,6 +29,7 @@ function onClick(id){
             const t = "Great choice. You can use that radio over there to change the channel if you're not loving the song.";
             let i = 0;
             typingSound.play()
+            songs[0].play()
             function typeWriter() {
                 if (i < t.length) {
                     document.getElementById("text").innerHTML += t.charAt(i);
