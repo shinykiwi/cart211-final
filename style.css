@@ -1,8 +1,9 @@
 body{
-    background-color: #fff;
+    background-color: #0d0c0c;
     color: #ffffff;
     padding: 20px;
     font-family: Arial, sans-serif;
+
 }
 
 
@@ -10,6 +11,7 @@ body{
     width: 70rem;
     position: absolute;
     z-index: -1;
+    scale: 1;
 }
 
 .dialogue_btn{
@@ -50,7 +52,7 @@ body{
     width: 16rem;
     color: white;
     position: relative;
-    opacity: 85%;
+    filter: drop-shadow(1px 1px 10px #ffffff);
 
 }
 
@@ -66,17 +68,14 @@ body{
 
 .randolph_btn{
     position:absolute;
-    top:0;
-    left:0;
+    top:300px;
+    left:500px;
     z-index: 1;
     height:100%;
     width:100%;
     border-radius: 5px;
-    background-image: url("img/rock1.png");
-    background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 0;
-    background-color: transparent;
+    background-size: cover;
+    background: transparent url("img/boy.png") no-repeat center center;
     border: none;
 
 }

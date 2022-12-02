@@ -5,8 +5,10 @@ function onClick(id){
 
     const textBox = document.getElementById("textBox")
     const text = document.getElementById("text")
-    const blip = new Audio("sound/explosion-3.wav")
-    blip.playbackRate = 1.5;
+    const clickSound = new Audio("sound/close.wav")
+    const typingSound = new Audio("sound/typing.wav")
+    const speed = 45;
+    typingSound.loop = true
 
     one.disabled = true
     two.disabled = true
@@ -14,17 +16,21 @@ function onClick(id){
     if(id === "one") {
         if (one.innerHTML === "Thanks."){
             textBox.style.opacity = 0;
+            clickSound.play()
         }
         else{
+            text.innerHTML = '';
             const t = "Great choice. You can use that radio over there to change the channel if you're not loving the song.";
-            const speed = 50;
             let i = 0;
+            typingSound.play()
             function typeWriter() {
                 if (i < t.length) {
                     document.getElementById("text").innerHTML += t.charAt(i);
                     i++;
-                    blip.play()
                     setTimeout(typeWriter, speed);
+                }
+                else{
+                    typingSound.pause()
                 }
             }
             typeWriter()
@@ -36,27 +42,24 @@ function onClick(id){
 
     }
 
-    else if (id === "two"){
-        text.innerHTML = "Alright, suit yourself."
-    }
-
     else if (id === "randolph"){
+        clickSound.play()
         randolph.disabled = true;
         textBox.style.opacity = "100%";
         let i = 0;
         const txt = 'Welcome back. Want to listen to some tunes?';
-        const speed = 50;
 
         function typeWriter() {
+            typingSound.play()
             if (i < txt.length) {
                 document.getElementById("text").innerHTML += txt.charAt(i);
                 i++;
-                blip.play()
                 setTimeout(typeWriter, speed);
             }
             else{
+                typingSound.pause()
+                typingSound.currentTime = 0;
                 one.disabled = false;
-                two.disabled = false;
 
             }
         }
