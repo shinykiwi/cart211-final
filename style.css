@@ -79,3 +79,24 @@ body{
     border: none;
 
 }
+
+.radio_btn{
+    position:absolute;
+    top: 455px;
+    left: 200px;
+    z-index: 1;
+    width:250px;
+    height: 200px;
+    background: transparent url("img/radio.png") no-repeat center center;
+    background-size: cover;
+    border: none;
+}
+
+.radio_btn:hover{
+    opacity: 100%;
+    filter: drop-shadow(1px 1px 10px #ffffff);
+}
+
+.radio_btn:disabled{
+    filter: none;
+}
