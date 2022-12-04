@@ -10,13 +10,28 @@
 
 <div class="textBox" id="textBox">
     <p id="text"></p>
-    <button id="one" type="button" class="dialogue_btn" onclick="onClick(this.id)">Yeah!</button>
-    <button id="two" type="button" class="dialogue_btn" onclick="onClick(this.id)">No thanks.</button>
+    <button id="one" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">Yeah!</button>
+    <button id="two" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">No thanks.</button>
 </div>
 <div class="randolph">
     <img class="background" src="img/background.png" alt="blue background">
-    <button id="randolph" type="button" class="randolph_btn" onclick="onClick(this.id)"></button>
+    <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>
 
 </div>
-<button id="radio" type="button" class="radio_btn" onclick="onClick(this.id)"></button>
+    <audio id="0" src="sound/peggy.wav"></audio>
+    <audio id="1" src="sound/billie-holiday.wav"></audio>
+    <audio id="2" src="sound/bing2.wav"></audio>
+    <audio id="3" src="sound/bing-crosby.wav"></audio>
+    <audio id="4" src="sound/christmas.wav"></audio>
+    <audio id="5" src="sound/cole-porter.wav"></audio>
+    <audio id="6" src="sound/ella-fitz.wav"></audio>
+    <audio id="7" src="sound/evelyn-knight.wav"></audio>
+    <audio id="8" src="sound/frank-sinatra.wav"></audio>
+    <audio id="9" src="sound/helen-forrest.wav"></audio>
+    <audio id="10" src="sound/ink-spots.wav"></audio>
+    <audio id="11" src="sound/kick-in-the-head.wav"></audio>
+    <audio id="12" src="sound/personality.wav"></audio>
+    <audio id="13" src="sound/skeeter-davis.wav"></audio>
+    <audio id="14" src="sound/three-suns.wav"></audio>
+    <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
 </body>
