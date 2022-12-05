@@ -2,36 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Randolph's Radios</title>
+    <title>Daily Express</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 <body>
 
-<div class="textBox" id="textBox">
-    <p id="text"></p>
-    <button id="one" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">Yeah!</button>
-    <button id="two" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">No thanks.</button>
-</div>
-<div class="randolph">
-    <img class="background" src="img/background.png" alt="blue background">
-    <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>
 
+<div>
+    <h1>DAILY EXPRESS</h1>
+    <div class="flex-container">
+        <p>No. 132</p>
+        <p>Black-out 10.14pm to 5.57am</p>
+        <p>FRIDAY AUGUST 13 1943</p>
+        <p>Moon rises 7.53pm set 4.38am</p>
+        <p>One penny</p>
+    </div>
 </div>
-    <audio id="0" src="sound/peggy.wav"></audio>
-    <audio id="1" src="sound/billie-holiday.wav"></audio>
-    <audio id="2" src="sound/bing2.wav"></audio>
-    <audio id="3" src="sound/bing-crosby.wav"></audio>
-    <audio id="4" src="sound/christmas.wav"></audio>
-    <audio id="5" src="sound/cole-porter.wav"></audio>
-    <audio id="6" src="sound/ella-fitz.wav"></audio>
-    <audio id="7" src="sound/evelyn-knight.wav"></audio>
-    <audio id="8" src="sound/frank-sinatra.wav"></audio>
-    <audio id="9" src="sound/helen-forrest.wav"></audio>
-    <audio id="10" src="sound/ink-spots.wav"></audio>
-    <audio id="11" src="sound/kick-in-the-head.wav"></audio>
-    <audio id="12" src="sound/personality.wav"></audio>
-    <audio id="13" src="sound/skeeter-davis.wav"></audio>
-    <audio id="14" src="sound/three-suns.wav"></audio>
-    <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
+
+<div style="display: flex;">
+
+    <div>
+        <div>
+            <h2 style="text-align: center">Released recently, Peggy Lee's latest hit takes the nation by storm</h2>
+            <h3>'WHY DON'T YOU DO RIGHT?'</h3>
+        </div>
+
+        <div style="display: flex;">
+            <div class="randolph" style="text-align: center">
+                    <div style="border-top: black 1px solid; width:5rem"></div>
+                    <h2 style="font-size: 32px">'No Italians' is evacuation order'</h2>
+                    <h2 style="font-family: 'Times New Roman',serif; font-variant: all-small-caps; font-size: 32px"><em>'Spitfires and e-boats blitz barges'</em></h2>
+
+                <!--        <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>-->
+                <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
+                <!--        <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>-->
+            </div>
+
+            <div class="randolph">
+                <img src="img/background.png" alt="background">
+            </div>
+
+            <div>
+                <audio id="0" src="sound/peggy.wav"></audio>
+                <audio id="1" src="sound/billie-holiday.wav"></audio>
+                <audio id="2" src="sound/bing2.wav"></audio>
+                <audio id="3" src="sound/bing-crosby.wav"></audio>
+                <audio id="4" src="sound/christmas.wav"></audio>
+                <audio id="5" src="sound/cole-porter.wav"></audio>
+                <audio id="6" src="sound/ella-fitz.wav"></audio>
+                <audio id="7" src="sound/evelyn-knight.wav"></audio>
+                <audio id="8" src="sound/frank-sinatra.wav"></audio>
+                <audio id="9" src="sound/helen-forrest.wav"></audio>
+                <audio id="10" src="sound/ink-spots.wav"></audio>
+                <audio id="11" src="sound/kick-in-the-head.wav"></audio>
+                <audio id="12" src="sound/personality.wav"></audio>
+                <audio id="13" src="sound/skeeter-davis.wav"></audio>
+                <audio id="14" src="sound/three-suns.wav"></audio>
+
+
+            </div>
+
+            <div>
+                <div class="randolph" id="textBox">
+                    <h2 id="name">Randolph</h2>
+                    <p id="text"></p>
+                    <button id="one" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">➤&emsp;Yeah!</button>
+                    <button id="two" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">➤&emsp;No thanks.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="randolph">
+            <!--            <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>-->
+            <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 </body>

@@ -1,6 +1,5 @@
 const randolph = document.getElementById("randolph")
 const radio = document.getElementById("radio")
-
 const clickSound = new Audio("sound/close.wav")
 const typingSound = new Audio("sound/typing.wav")
 const speed = 20;
@@ -75,6 +74,7 @@ function onDialogueBtns(id) {
 }
 
 function onRadio(id){
+    const info = document.getElementById("info")
     console.log(value)
     let audio = document.getElementById(String(value));
     if(audio.paused){
@@ -87,4 +87,10 @@ function onRadio(id){
         audio.play();
 
     }
+}
+
+function onInfo(id){
+    console.log("info")
+
+
 }

@@ -1,28 +1,34 @@
 body{
-    background-color: #0d0c0c;
-    color: #ffffff;
+    background-image: url("img/paper.jpg");
+    background-size: 15%;
+    color: black;
     padding: 20px;
-    font-family: Arial, sans-serif;
-
+    font-family: "Times New Roman", sans-serif;
 }
 
-
-.background{
-    width: 70rem;
-    position: absolute;
-    z-index: -1;
-    scale: 1;
+@font-face {
+    font-family: Lydian;
+    src: url(fonts/lydian.ttf);
+}
+@font-face {
+    font-family: Futura;
+    src: url(fonts/futura.ttf);
 }
 
 .dialogue_btn{
+    text-align: left;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width:20rem;
     border:none;
-    background-color: #ffffff;
     display: block;
+    background-color: transparent;
     margin-bottom: 10px;
 }
 
 .dialogue_btn:hover{
-    opacity: 50%;
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: overlay;
 }
 
 .dialogue_btn:disabled{
@@ -30,29 +36,20 @@ body{
 }
 
 .textBox{
-    position: absolute;
-    z-index: 1;
-    top:650px;
-    left:400px;
+    z-index: 2;
     margin: 10px;
-    padding: 0.5rem;
+    padding: 0 20px 20px 20px;
     border-radius: 10px;
+    border: black 5px solid;
     opacity: 0;
-    background-color: dimgrey;
-
+    contain: content;
 }
 
-.randolph{
-    float: left;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 60px;
-    height: 17rem;
-    width: 16rem;
-    color: white;
-    position: relative;
-    filter: drop-shadow(1px 1px 10px #ffffff);
 
+.randolph{
+    padding: 10px;
+    border-right: black 1px solid;
+    max-width: 20rem;
 }
 
 .randolph_btn:hover{
@@ -66,36 +63,76 @@ body{
 
 
 .randolph_btn{
-    position:absolute;
-    top:220px;
-    left:410px;
     z-index: 1;
-    height:100%;
-    width:100%;
     border-radius: 5px;
     background: transparent url("img/boy.png") no-repeat center center;
     background-size: cover;
     border: none;
 
+
 }
 
 .radio_btn{
-    position:absolute;
-    top: 350px;
-    left: 200px;
     z-index: 1;
     width:250px;
     height: 200px;
     background: transparent url("img/radio.png") no-repeat center center;
     background-size: cover;
     border: none;
+    filter: saturate(0%);
+    margin-top: 2rem;
 }
 
 .radio_btn:hover{
-    opacity: 100%;
-    filter: drop-shadow(1px 1px 10px #ffffff);
+    filter: saturate(50%);
 }
 
 .radio_btn:disabled{
     filter: none;
 }
+
+.info_btn{
+    z-index: 1;
+    width:100px;
+    height: 130px;
+    background: transparent url("img/info.png") no-repeat center center;
+    background-size: cover;
+    border: none;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: black 1px solid;
+}
+
+h1{
+    text-align: center;
+    font-family: Lydian, sans-serif;
+    font-size: 4rem;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+h3{
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 4rem;
+    padding: 0;
+    margin:0;
+}
+
+p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: Futura, serif;
+    margin: 10px 0 0 0;
+}
+
+img{
+    width: 400px;
+    filter: saturate(0%);
+}
+
+
