@@ -22,7 +22,7 @@
 
 <div style="display: flex;">
 
-    <div>
+    <div style="margin-left:5rem; margin-right:5rem">
         <div>
             <h2 style="text-align: center">Released recently, Peggy Lee's latest hit takes the nation by storm</h2>
             <h3>'WHY DON'T YOU DO RIGHT?'</h3>
@@ -32,15 +32,37 @@
             <div class="randolph" style="text-align: center">
                     <div style="border-top: black 1px solid; width:5rem"></div>
                     <h2 style="font-size: 32px">'No Italians' is evacuation order'</h2>
-                    <h2 style="font-family: 'Times New Roman',serif; font-variant: all-small-caps; font-size: 32px"><em>'Spitfires and e-boats blitz barges'</em></h2>
+                    <h4 ><em>'Spitfires and e-boats blitz barges'</em></h4>
+                <div style="text-align: justify">
+                    <p style="font-family: Futura, serif"><strong>From ALAN MOOREHEAD: Near  Catania, Thursday</strong></p>
+                    <p style="font-family: Futura, serif; font-size: 18px">The German evacuation of Sicily has begun in earnest. At the rate of a thousand a day the enemy troops are crossing to the Italian mainland.</p>
+                    <p style="font-size: 14px">&emsp;<strong>While a rearguard fights on viciously along the Etna Line the panzer troops are pouring down to the beaches. There they wait in the rock caves for their turn to embark on the most dangerous journey in the world. </strong></p>
+                    <p style="font-size: 14px">&emsp;Many are tired and broken to the pitch of endurance. But there is no route, no disorder. <br>&emsp;As far as possible they are getting away on a set plan.</p>
+                    <p>&emsp;They are, however, hungry, thirsty, dusty and beaten. Every enemy unit is dratically reduced. Bastallona are down to the strength of companies, and companies are little more than platoons.<br>&emsp;The Germans are unlike two stretches of breath from which to escape.<br>One stretch runs along the north cost to the tip of the island. On this route, they have the advantage of distance.</p>
+                </div>
 
                 <!--        <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>-->
                 <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
                 <!--        <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>-->
             </div>
 
-            <div class="randolph">
-                <img src="img/background.png" alt="background">
+            <div class="randolph" style="text-align: center; display: flex;">
+                <div class="randolph" style="padding: 0 5px 0 0">
+                    <h2 style="font-size: 16px">REAR THE END AT RANDAZZO</h2>
+                    <h4 style="font-size: 38px"><strong>THE LAST BULWARK ISOLATED</strong></h4>
+                    <p style="font-family: Futura, serif"><strong>From HENRY BUCKLEY</strong></p>
+                    <div style="text-align: justify">
+                        <p>Thursday -- Events are moving fast now in Sicily. The German bulwark town of Randamo is under fire from American light artillery--and it is being cut-flanked from the north and the east.<br>On the nortn point are Americans stationed on for the integration of the enemy's. </p>
+                    </div>
+                </div>
+                <div class="randolph" style="border-right: none;padding: 0 0 0 5px">
+                    <h2 style="font-size: 38px">Winston leaves to meet FDR</h2>
+                    <p style="font-family: Futura, serif"><strong>From NEWELL ROGERS</strong></p>
+                    <div style="text-align: justify">
+                        <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
+                    </div>
+                </div>
+
             </div>
 
             <div>
@@ -64,18 +86,32 @@
             </div>
 
             <div>
-                <div class="randolph" id="textBox">
-                    <h2 id="name">Randolph</h2>
-                    <p id="text"></p>
-                    <button id="one" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">➤&emsp;Yeah!</button>
-                    <button id="two" type="button" class="dialogue_btn" onclick="onDialogueBtns(this.id)">➤&emsp;No thanks.</button>
+                <div class="randolph">
+                    <div>
+                        <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>
+                    </div>
+                    <div>
+                        <h2 id="name">Randolph</h2>
+                        <p style="font-size: 14px" id="text"></p>
+                        <div id="textBox">
+                            <button id="one" type="button" disabled class="dialogue_btn" onclick="onDialogueBtns(this.id)">I would, sir.</button>
+                            <button id="two" type="button" disabled class="dialogue_btn" onclick="onDialogueBtns(this.id)">No.</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div>
-        <div class="randolph">
-            <!--            <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>-->
+        <div class="randolph" style="text-align: center">
+            <h2 style="font-size: 45px">Italy sends Britons to Germany</h2>
+            <h4><em>2,500 IN CAMP NEAR BERLIN</em></h4>
+            <p style="font-family: Futura, serif"><strong>Express Staff Reporter ERNEST ASHWICK</strong></p>
+            <div style="text-align: justify">
+                <p><strong>GENEVA, Thursday --British war prisoners in Italy are being transferred to German prison camps, according to information reaching the International War Prisoners' Agency in Geneva.</strong></p>
+                <p></p>
+            </div>
+
             <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>
         </div>
     </div>

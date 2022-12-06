@@ -10,7 +10,8 @@ function onRandolph(id){
     console.log("randolph")
     clickSound.play()
     document.getElementById(id).disabled = true;
-    document.getElementById("textBox").style.opacity = "100%";
+    document.getElementById("one").disabled = false;
+    document.getElementById("two").disabled = false;
     let i = 0;
     const txt = 'Welcome back. Want to listen to some tunes?';
 
@@ -24,7 +25,6 @@ function onRandolph(id){
         else{
             typingSound.pause()
             typingSound.currentTime = 0;
-            one.disabled = false;
         }
     }
     typeWriter()
@@ -43,11 +43,12 @@ function onDialogueBtns(id) {
         console.log("one")
         // If the label says the closing message
         if (one.innerHTML === "Thanks.") {
-            textBox.style.opacity = 0;
+            one.style.opacity = "0";
             clickSound.play()
         }
         // For all other labels
         else {
+            document.getElementById("background").style.filter = "saturate(50%)"
             text.innerHTML = '';
             const t = "Great choice. You can use that radio over there to change the channel if you're not loving the song.";
 
@@ -74,8 +75,9 @@ function onDialogueBtns(id) {
 }
 
 function onRadio(id){
-    const info = document.getElementById("info")
+
     console.log(value)
+    // document.getElementById(id).style.filter = "saturate(50%)"
     let audio = document.getElementById(String(value));
     if(audio.paused){
         audio.play();

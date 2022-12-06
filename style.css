@@ -23,7 +23,7 @@ body{
     border:none;
     display: block;
     background-color: transparent;
-    margin-bottom: 10px;
+    font-family: "Times New Roman", serif;
 }
 
 .dialogue_btn:hover{
@@ -39,9 +39,6 @@ body{
     z-index: 2;
     margin: 10px;
     padding: 0 20px 20px 20px;
-    border-radius: 10px;
-    border: black 5px solid;
-    opacity: 0;
     contain: content;
 }
 
@@ -49,26 +46,25 @@ body{
 .randolph{
     padding: 10px;
     border-right: black 1px solid;
-    max-width: 20rem;
+    max-width: 50rem;
 }
 
 .randolph_btn:hover{
-    opacity: 100%;
-    filter: drop-shadow(1px 1px 10px #ffffff);
+    filter: saturate(50%);
 }
 
 .randolph_btn:disabled{
-    filter: none;
+    filter: saturate(50%);
 }
 
 
 .randolph_btn{
-    z-index: 1;
-    border-radius: 5px;
-    background: transparent url("img/boy.png") no-repeat center center;
-    background-size: cover;
-    border: none;
 
+    height: 20rem;
+    width: 20rem;
+    background: transparent url("img/boy.png") no-repeat center center;
+    background-size: contain;
+    filter: saturate(0%);
 
 }
 
@@ -122,6 +118,7 @@ h3{
 
 p{
     font-size: 12px;
+    margin:2px;
 }
 
 h2{
@@ -135,4 +132,10 @@ img{
     filter: saturate(0%);
 }
 
+h4{
+    font-family: 'Times New Roman',serif;
+    font-variant: all-small-caps;
+    font-size: 32px;
+    margin: 0 0 0 0;
+}
 
