@@ -94,11 +94,20 @@ body{
     background: transparent url("img/info.png") no-repeat center center;
     background-size: cover;
     border: none;
+    filter: saturate(0%);
 }
 .flex-container{
     display: flex;
     justify-content: space-around;
     border-bottom: black 1px solid;
+}
+
+.info_btn:hover{
+    filter: saturate(50%);
+}
+
+.info_btn:disabled{
+    filter: none;
 }
 
 h1{
@@ -135,7 +144,8 @@ img{
 h4{
     font-family: 'Times New Roman',serif;
     font-variant: all-small-caps;
-    font-size: 32px;
-    margin: 0 0 0 0;
+    font-size: 36px;
+    line-height: 75%;
+    margin: 0 0 10px;
 }
 

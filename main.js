@@ -11,7 +11,6 @@ function onRandolph(id){
     clickSound.play()
     document.getElementById(id).disabled = true;
     document.getElementById("one").disabled = false;
-    document.getElementById("two").disabled = false;
     let i = 0;
     const txt = 'Welcome back. Want to listen to some tunes?';
 
@@ -48,7 +47,6 @@ function onDialogueBtns(id) {
         }
         // For all other labels
         else {
-            document.getElementById("background").style.filter = "saturate(50%)"
             text.innerHTML = '';
             const t = "Great choice. You can use that radio over there to change the channel if you're not loving the song.";
 
@@ -87,7 +85,6 @@ function onRadio(id){
         value += 1;
         audio = document.getElementById(String(value));
         audio.play();
-
     }
 }
 

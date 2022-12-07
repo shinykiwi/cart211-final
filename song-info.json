@@ -1,11 +1,64 @@
 [
   {
-    "song": "Easy Living",
-    "artist": "Billie Holiday",
-    "year": "1937",
+    "song": "Why Don't You Do Right?",
+    "artist": "Peggy Lee",
+    "year": 1943,
+    "label": "Columbia",
     "tags": ""
   },
   {
-    "song":
+    "song": "Easy Living",
+    "artist": "Billie Holiday",
+    "year": 1937,
+    "tags": ""
+  },
+  {
+    "song": "Dear Hearts and Gentle People",
+    "artist": "Bob Crosby and the Bobcats",
+    "year": 1949,
+    "label": "Decca Records",
+    "tags": ""
+  },
+  {
+    "song": "Pistol Packin' Mama",
+    "artist": "Bing Crosby",
+    "year": 1943,
+    "label": "Decca 23277",
+    "tags": ""
+  },
+  {
+    "song": "White Christmas",
+    "artist": "Bing Crosby",
+    "year": 1942,
+    "label": "Decca Records",
+    "tags": ""
+  },
+  {
+    "song": "Anything Goes",
+    "artist": "Cole Porter",
+    "year": "1934",
+    "label": "Broadway Production",
+    "tags": ""
+  },
+  {
+    "song": "Into Each Life Some Rain Must Fall",
+    "artist": "Ella Fitzgerald",
+    "year": 1944,
+    "label": "Decca Records",
+    "tags": ""
+  },
+  {
+    "song": "A Little Bird Told me",
+    "artist": "Evelyn Knight",
+    "year": 1948,
+    "label": "Decca Records",
+    "tags": ""
+  },
+  {
+    "song": "Dear Hearts and Gentle People",
+    "artist": "Bob Crosby and the Bobcats",
+    "year": 1949,
+    "label": "Decca Records",
+    "tags": ""
   }
 ]
