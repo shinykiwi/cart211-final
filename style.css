@@ -134,11 +134,13 @@ h2{
     font-size: 24px;
     font-family: Futura, serif;
     margin: 10px 0 0 0;
+
 }
 
 img{
-    width: 400px;
-    filter: saturate(0%);
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 1px;
 }
 
 h4{
@@ -149,3 +151,18 @@ h4{
     margin: 0 0 10px;
 }
 
+ul{
+    margin: 0;
+    font-size: 12px;
+}
+
+blockquote{
+    font: italic 18px "Times New Roman", serif;
+    line-height: 1.5rem;
+}
+
+.cred-img{
+    margin-top: 3rem;
+    max-width: 60rem;
+
+}

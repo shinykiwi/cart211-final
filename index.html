@@ -13,78 +13,87 @@
         <div class="flex-container">
             <p>No. 132</p>
             <p>Black-out 10.14pm to 5.57am</p>
-            <p>FRIDAY AUGUST 13 1943</p>
+            <p id="date" style="text-transform: uppercase">FRIDAY AUGUST 13 1943</p>
             <p>Moon rises 7.53pm set 4.38am</p>
             <p>One penny</p>
         </div>
     </div>
 
     <div style="display: flex;">
-
         <div style="margin-left:5rem">
             <div>
-                <h2 style="text-align: center">Released recently, Peggy Lee's latest hit takes the nation by storm</h2>
-                <h3>'WHY DON'T YOU DO RIGHT?'</h3>
+                <h2 style="text-align: center">Released recently, <span id="artist">Peggy Lee</span>'s latest hit takes the nation by storm</h2>
+                <h3 id="song" style="text-transform: uppercase"></h3>
             </div>
-
             <div style="display: flex;">
-                <div class="randolph" style="text-align: center">
+                <div class="randolph" style="text-align: center; border-left: black 1px solid; max-width:30rem">
                         <div style="border-top: black 1px solid; width:5rem"></div>
-                        <h2 style="font-size: 32px">'No Italians' is evacuation order'</h2>
-                        <h4 ><em>'Spitfires and e-boats blitz barges'</em></h4>
+                        <h2 id="MA-title" style="font-size: 32px"></h2>
+                        <h4 id="MA-subtitle"><em></em></h4>
+                    <p id="MA-author" style="font-family: Futura, serif"><strong></strong></p>
                     <div style="text-align: justify">
-                        <p style="font-family: Futura, serif"><strong>From ALAN MOOREHEAD: Near  Catania, Thursday</strong></p>
-                        <p style="font-family: Futura, serif; font-size: 18px">The German evacuation of Sicily has begun in earnest. At the rate of a thousand a day the enemy troops are crossing to the Italian mainland.</p>
-                        <p style="font-size: 14px">&emsp;<strong>While a rearguard fights on viciously along the Etna Line the panzer troops are pouring down to the beaches. There they wait in the rock caves for their turn to embark on the most dangerous journey in the world. </strong></p>
-                        <p style="font-size: 14px">&emsp;Many are tired and broken to the pitch of endurance. But there is no route, no disorder. <br>&emsp;As far as possible they are getting away on a set plan.</p>
-                        <p>&emsp;They are, however, hungry, thirsty, dusty and beaten. Every enemy unit is dratically reduced. Bastallona are down to the strength of companies, and companies are little more than platoons.<br>&emsp;The Germans are unlike two stretches of breath from which to escape.<br>One stretch runs along the north cost to the tip of the island. On this route, they have the advantage of distance.</p>
+                        <p id="MA-bold" style="font-family: Futura, serif; font-size: 18px"></p>
+                        <p id="MA-semibold" style="font-size: 14px"><strong></strong></p>
+                        <p id="MA-medium" style="font-size: 14px"></p>
+                        <p id="MA-regular"></p>
                     </div>
-
-                    <!--        <button id="randolph" type="button" class="randolph_btn" onclick="onRandolph(this.id)"></button>-->
-                    <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
-                    <!--        <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>-->
+                    <div style="display: flex">
+                        <div class="randolph" style="border-bottom: black 1px solid;">
+                            <h4 id="LAS-title" style="font-size: 38px"></h4>
+                            <p id="LAS-author" style="font-family: Futura, serif"><strong></strong></p>
+                            <div style="text-align: justify">
+                                <p id="LAS-regular"></p>
+                            </div>
+                        </div>
+                        <div class="randolph" style="border-right: none; border-bottom: black 1px solid">
+                            <h4 id="LAS2-title" style="font-size: 38px"></h4>
+                            <p id="LAS2-author" style="font-family: Futura, serif"><strong></strong></p>
+                            <div style="text-align: justify">
+                                <p id="LAS2-regular"></p>
+                            </div>
+                            <button id="radio" type="button" class="radio_btn" onclick="onRadio()"></button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="randolph" style="text-align: center; display: flex;">
-                    <div class="randolph" style="padding: 0 5px 0 0">
-                        <h2 style="font-size: 16px">REAR THE END AT RANDAZZO</h2>
-                        <h4 style="font-size: 38px"><strong>THE LAST BULWARK ISOLATED</strong></h4>
-                        <p style="font-family: Futura, serif"><strong>From HENRY BUCKLEY</strong></p>
+                    <div class="randolph" style="padding: 0 5px 0 0; max-width: 15rem">
+                        <h2 style="font-size: 16px">THE LIFE AND TIMES OF</h2>
+                        <h4 style="font-size: 38px; text-transform: uppercase" id="artist2"><strong></strong></h4>
+                        <p style="font-family: Futura, serif"><strong>From RANDOLPH BUCKLEY</strong></p>
+                        <img id="portrait" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Peggy_Lee_1950.JPG" alt="peggy-lee-1950">
                         <div style="text-align: justify">
-                            <p>Thursday -- Events are moving fast now in Sicily. The German bulwark town of Randamo is under fire from American light artillery--and it is being cut-flanked from the north and the east.<br>On the nortn point are Americans stationed on for the integration of the enemy's. </p>
+                            <p id="artist-desc"></p>
                         </div>
                     </div>
                     <div class="randolph" style="border-right: none;padding: 0 0 0 5px">
-                        <h2 style="font-size: 38px">Winston leaves to meet FDR</h2>
+                        <h2 style="font-size: 38px">About the Song & Other Facts</h2>
                         <p style="font-family: Futura, serif"><strong>From NEWELL ROGERS</strong></p>
                         <div style="text-align: justify">
-                            <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
+                            <p id="description"></p>
+                            <ul>
+                                <li id="fact1"></li>
+                                <li id="fact2"></li>
+                                <li id="fact3"></li>
+                            </ul>
+                            <p style="font-family: Futura, serif;margin-top: 1rem; text-align: center"><strong>SING ALONG</strong></p>
+                            <p id="lyrics" style="line-height: 1.2rem;">lyrics</p>
                         </div>
                     </div>
-
                 </div>
-
                 <div>
-                    <audio id="0" src="sound/peggy.wav"></audio>
+                    <audio id="0" src="sound/peggy.wav" ></audio>
                     <audio id="1" src="sound/billie-holiday.wav"></audio>
                     <audio id="2" src="sound/bing2.wav"></audio>
                     <audio id="3" src="sound/bing-crosby.wav"></audio>
-                    <audio id="4" src="sound/christmas.wav"></audio>
-                    <audio id="5" src="sound/cole-porter.wav"></audio>
-                    <audio id="6" src="sound/ella-fitz.wav"></audio>
-                    <audio id="7" src="sound/evelyn-knight.wav"></audio>
-                    <audio id="8" src="sound/frank-sinatra.wav"></audio>
-                    <audio id="9" src="sound/helen-forrest.wav"></audio>
-                    <audio id="10" src="sound/helen-oconnell.wav"></audio>
-                    <audio id="11" src="sound/ink-spots.wav"></audio>
-                    <audio id="12" src="sound/kick-in-the-head.wav"></audio>
-                    <audio id="13" src="sound/personality.wav"></audio>
-                    <audio id="14" src="sound/skeeter-davis.wav"></audio>
-                    <audio id="15" src="sound/three-suns.wav"></audio>
-
-
+                    <audio id="4" src="sound/cole-porter.wav"></audio>
+<!--                    <audio id="5" src="sound/ella-fitz.wav"></audio>-->
+<!--                    <audio id="6" src="sound/evelyn-knight.wav"></audio>-->
+<!--                    <audio id="7" src="sound/helen-forrest.wav"></audio>-->
+<!--                    <audio id="8" src="sound/ink-spots.wav"></audio>-->
+<!--                    <audio id="9" src="sound/personality.wav"></audio>-->
+<!--                    <audio id="10" src="sound/three-suns.wav"></audio>-->
                 </div>
-
                 <div>
                     <div class="randolph">
                         <div>
@@ -98,39 +107,40 @@
                                 <button id="two" type="button" disabled class="dialogue_btn" onclick="onDialogueBtns(this.id)">No.</button>
                             </div>
                         </div>
+                        <blockquote id="quote"></blockquote>
                     </div>
                 </div>
             </div>
         </div>
         <div>
             <div class="randolph" style="text-align: center">
-                <h2 style="font-size: 45px">Italy sends Britons to Germany</h2>
-                <h4><em>2,500 IN CAMP NEAR BERLIN</em></h4>
-                <p style="font-family: Futura, serif"><strong>Express Staff Reporter ERNEST ASHWICK</strong></p>
+                <h2 id="RA-title" style="font-size: 45px"></h2>
+                <h4 id="RA-subtitle"><em></em></h4>
+                <p id="RA-author" style="font-family: Futura, serif"><strong></strong></p>
                 <div style="text-align: justify">
-                    <p><strong>GENEVA, Thursday --British war prisoners in Italy are being transferred to German prison camps, according to information reaching the International War Prisoners' Agency in Geneva.</strong></p>
+                    <p id="RA-bold"><strong></strong></p>
                     <p></p>
                 </div>
                 <div style="display: flex">
                     <div class="randolph" style="border-right: black 1px solid; padding: 0 5px 0 0">
-                        <h4 style="font-size: 38px">THE MAN WITH A BAYONET</h4>
-                        <p style="font-family: Futura, serif"><strong>From NEWELL ROGERS</strong></p>
+                        <h4 id="RAS-title" style="font-size: 38px"></h4>
+                        <p id="RAS-author" style="font-family: Futura, serif"><strong></strong></p>
                         <div style="text-align: justify">
-                            <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
+                            <p id="RAS-regular"></p>
                         </div>
                     </div>
                     <div class="randolph" style="border-right: none;padding: 0 0 0 5px">
 
                         <div style="text-align: justify; border-bottom: black 1px solid">
-                            <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br></p>
+                            <p id="RA-regular">NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br></p>
                         </div>
-                        <h2 style="font-size: 20px">SWEDES FIRE ON NAZI PLANES</h2>
+                        <h2 id="A1-title" style="font-size: 20px">SWEDES FIRE ON NAZI PLANES</h2>
                         <div style="text-align: justify">
-                            <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
+                            <p id="A1-regular">NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
                         </div>
-                        <h2 style="font-size: 20px">2000 AIRCRAFT STRIKERS RETURN</h2>
+                        <h2 id="A2-title" style="font-size: 20px">2000 AIRCRAFT STRIKERS RETURN</h2>
                         <div style="text-align: justify">
-                            <p>NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
+                            <p id="A2-regular" >NEW YORK, Thursday. Mr. Churchill and Mr. Roosevelt have vanished.<br>&emsp;The only clue to their movements is the statement that Mr. Churchill, after visiting Niagara Falls today, left for an "un-announced destination."<br>&emsp;That, too, may be the destination of President Roosevelt.<br>&emsp;Reports from Quatar -- says the Premier left the staff their in the station. </p>
                         </div>
                         <button id="info" type="button" class="info_btn" onclick="onInfo()"></button>
                     </div>

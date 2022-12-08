@@ -2,35 +2,43 @@
   {
     "song": "Why Don't You Do Right?",
     "artist": "Peggy Lee",
-    "year": 1943,
+    "image": "",
+    "year": "Monday July 27 1942",
     "label": "Columbia",
+    "fact": ["Lee often stated that Green's recording was influential to her music. In a 1971 interview[7] she said, \"I had the record, and I used to play it over and over in my dressing room, which was next to Benny Goodman ... Finally ... he said, 'I think you really like that song.' I said, 'Oh, I love it.' He said, 'Would you like to sing it?'\" Lee said yes, so Goodman had an arrangement made of it for Lee to sing."],
+    "description": "\"Why Don't You Do Right?\" (originally recorded as \"Weed Smoker's Dream\" in 1936) is an American blues and jazz-influenced pop song usually credited to Kansas Joe McCoy.[1] A minor key twelve-bar blues with a few chord substitutions, it is considered a classic \"woman's blues\" song and has become a standard. Singer Lil Green recorded a popular rendition in 1941, which Peggy Lee recorded the next year — accompanied by Benny Goodman — and made one of her signature songs.",
     "tags": ""
   },
   {
     "song": "Easy Living",
     "artist": "Billie Holiday",
-    "year": 1937,
+    "image": "https://assets.vogue.com/photos/6039702a2b4ed9246fc2c324/master/w_2560%2Cc_limit/GettyImages-104476113.jpg",
+    "year": "Thursday June 10 1937",
     "tags": ""
   },
   {
     "song": "Dear Hearts and Gentle People",
     "artist": "Bob Crosby and the Bobcats",
-    "year": 1949,
+    "year": "October 26 1949",
     "label": "Decca Records",
     "tags": ""
   },
   {
     "song": "Pistol Packin' Mama",
     "artist": "Bing Crosby",
-    "year": 1943,
+    "year": "October 21 1943",
     "label": "Decca 23277",
+    "fact": ["The chorus of the song was used for the 1970s UK television advertising campaign for Rowntree's Fruit Pastilles, with the punning tag line \"Pastille Pickin' Mama, pass those pastilles round.\""],
+    "description": "\"Pistol Packin' Mama\" was a \"Hillbilly\"-Honky Tonk record released at the height of World War II that became a nationwide sensation, and the first \"Country\" song to top the Billboard popular music chart. It was written by Al Dexter of Troup, Texas, who recorded it in Los Angeles, California on March 20, 1942, with top session musicians Dick Roberts, Johnny Bond and Dick Reinhart, who all normally worked for Gene Autry).[4]\n\n1943 was dominated by the Musician's Strike, which since August 1942, had prevented the recording of commercial music by the record companies. As the strike dragged on, the labels began releasing material from their artists' back catalogues, until by mid-1943, that ran out too. Fortunately for Okeh records, they released Al Dexter's \"Pistol Packin' Mama\" (PPM), backed with \"Rosalita\", in March. It caught fire quickly, helped by reports in 'The Billboard' magazine, and great popularity with customers of the nation's jukeboxes, which had run out of fresh material to play. Although Billboard did not publish its first Folk-Hillbilly chart until January 8, 1944, PPM became the first \"Hillbilly\" record to reach no. 1 on the National Best Selling Retail Records chart, on October 30, 1943,[8] and spent sixteen weeks in the top 10, on its way to selling 3 million copies.[9][10] It entered the Jukebox chart on July 31, 1943,[11] where it stayed for 28 weeks (the last 14 shared with Bing Crosby version), another unheard of achievement for a \"Hillbilly\" tune. In Billboard's 1943 Yearbook, released in September, PPM by Dexter was the only hillbilly record to join Glenn Miller and Tommy Dorsey in the best-selling record list.[12]\n\nTop vocalist Bing Crosby, always a major fan of \"hillbilly\" music,[13] was finally able to record a cover version with the Andrews Sisters on September 27, when his label, Decca, became the first to settle with the union. The single, released October 21, followed Dexter's to the top, revitalizing popularity and sales into 1944. When the first Billboard \"Most Played Jukebox Folk Records\" chart was published, both PPM versions tied for Number 1, and remained tied for seven straight weeks.[14]\n\nThe NBC radio network banned Bing's version because of the line “drinking beer in a cabaret.” The lyrics had to be changed to “singing songs in a cabaret” before it could air.",
     "tags": ""
   },
   {
     "song": "White Christmas",
     "artist": "Bing Crosby",
-    "year": 1942,
+    "year": "May 29 1942",
     "label": "Decca Records",
+    "fact": ["Dave Marsh and Steve Propes wrote, \"'White Christmas' changed Christmas music forever, both by revealing the huge potential market for Christmas songs and by establishing the themes of home and nostalgia that would run through Christmas music evermore.\"", "According to Crosby's nephew, Howard Crosby, \"I once asked Uncle Bing about the most difficult thing he ever had to do during his entertainment career… He said in December, 1944, he was in a USO show with Bob Hope and the Andrews Sisters. They did an outdoor show in northern France… he had to stand there and sing 'White Christmas' with 100,000 G.I.s in tears without breaking down himself. Of course, a lot of those boys were killed in the Battle of the Bulge a few days later.\"", "\"White Christmas\" is the most-recorded Christmas song; there have been more than 500 recorded versions of the song, in several different languages. The following have received some charting success."],
+    "description": "\"White Christmas\" is an Irving Berlin song reminiscing about an old-fashioned Christmas setting. The song was written by Berlin for the musical film Holiday Inn, released in 1942. The composition won the Academy Award for Best Original Song at the 15th Academy Awards.\n\nSince its release, \"White Christmas\" has been covered by many artists, the version sung by Bing Crosby being the world's best-selling single (in terms of sales of physical media) with estimated sales in excess of 50 million copies worldwide.[2] When the figures for other versions of the song are added to Crosby's, sales of the song exceed 100 million.",
     "tags": ""
   },
   {
@@ -38,27 +46,50 @@
     "artist": "Cole Porter",
     "year": "1934",
     "label": "Broadway Production",
+    "description": "\"Anything Goes\" is a song written by Cole Porter for his musical of the same name. (1934). Many of the lyrics include humorous references to figures of scandal and gossip from Depression-era high society. <br> A recording by Paul Whiteman and his Orchestra (vocal by Ramona Davies) was very popular in 1934.",
     "tags": ""
   },
   {
     "song": "Into Each Life Some Rain Must Fall",
     "artist": "Ella Fitzgerald",
-    "year": 1944,
+    "year": "1944",
     "label": "Decca Records",
     "tags": ""
   },
   {
     "song": "A Little Bird Told me",
     "artist": "Evelyn Knight",
-    "year": 1948,
+    "year": "1948",
     "label": "Decca Records",
     "tags": ""
   },
   {
-    "song": "Dear Hearts and Gentle People",
-    "artist": "Bob Crosby and the Bobcats",
-    "year": 1949,
+    "song": "I've Heard That Song Before",
+    "artist": "Helen Forrest",
+    "year": "1943",
+    "label": "Columbia 36668",
+    "tags": ""
+  },
+  {
+    "song": "Maybe",
+    "artist": "The Ink Spots",
+    "year": "1940",
     "label": "Decca Records",
     "tags": ""
+  },
+  {
+    "song": "Personality",
+    "artist": "Johnny Mercer",
+    "year": "1946",
+    "label": "Capitol Records",
+    "tags": ""
+  },
+  {
+    "song": "Worry, Worry, Worry",
+    "artist": "The Three Suns",
+    "year": "1948",
+    "label": "RCA Victor Records",
+    "tags": ""
   }
+
 ]
